@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bootstrap 5</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <style>
+            
+            body{
+                  background-color: grey;
+            }
+            #mapa {
+                  width: 100%;
+                  height: 500px;
+            } 
+      
+      </style>
+       <link rel="stylesheet" href="form.css" >
+       <script src="form.js"></script>
+</head>
+<body>
+<!-- NAVBAR -->
+      <div class="container-fluid" data-aos="flip-right">
+            <div class="row">
+                  <div class="col">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                              <div class="container-fluid">
+                                <a class="navbar-brand" href="#">Menú</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                  <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#piedepagina">Servicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Sobre nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                        </nav>
+                  </div>
+            </div>
+      </div>
+
+<!-- CARRUSEL -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/935977/pexels-photo-935977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+<!-- Quienes somos -->
+      <div class="container-fluid py-5">
+            <div class="container">
+                  <div class="row">
+                        <div class="col">
+                              <h1>Quienes somos</h1>
+                              <p> Somos una agencia de seguros de varios ámbitos, desde seguros de la educación de tus hijos hasta planes de retiro para asegurar el futuro de tu familia.</p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+<!--  Seccion de servicios o 3 imagenes-->
+      <div class="container-fluid bg-light py-5">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-12 col-md-4" data-aos="fade-right" data-aos-duration="4000">
+                              <img class="img-fluid shadow rounded" src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                              <h2 class="p-3">Gastos médicos mayores</h2>
+                              <p> Asegura tu futuro y el de tu familia con nuestros mejores planes para ti, cotiza sin compromiso.</p>
+                        </div>
+                        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="4000">
+                              <img class="img-fluid shadow rounded" src="https://images.pexels.com/photos/5816288/pexels-photo-5816288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                              <h2 class="p-3">Gente capactidata</h2>
+                              <p>Nuestros mejores agentes están dispuestos a ofrecerte el mejor plan con base a tus necesidades</p>
+                        </div>
+                        <div class="col-12 col-md-4" data-aos="fade-left" data-aos-duration="4000">
+                              <img class="img-fluid shadow rounded" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
+                              <h2 class="p-3">Subtitulo2</h2>
+                              <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500s.</p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+<!-- Se manda a llamar el mapa -->
+      <div class="container-fluid m-0 p-0 py-5">
+            <div class="row">
+                  <div class="col-12">
+                      <a name="mapa"></a>
+                        <h1 class="text-center">Encuentranos en nuestra ubicación</h1>
+                        <div id="mapa"></div>
+                  </div>
+            </div>
+      </div>
+       <!--  Formulario-->
+    </div>
+    <div class="container form-top">
+      <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+              <div class="panel panel-danger">
+                  <div class="panel-body">
+                      <form id="reused_form">
+                          <div class="form-group">
+                              <label><i class="fa fa-user" aria-hidden="true"></i> Nombre</label>
+                              <input type="text" name="name" class="form-control" placeholder="Ingresa tu nombre">
+                          </div>
+                          <div class="form-group">
+                              <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                              <input type="email" name="email" class="form-control" placeholder="Ingresa tu Email">
+                          </div>
+                          <div class="form-group">
+                              <label><i class="fa fa-comment" aria-hidden="true"></i> Mensaje</label>
+                              <textarea rows="3" name="message" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                          </div>
+                          <div class="form-group">
+                              <button class="btn btn-raised btn-block btn-danger">Enviar &rarr;</button>
+                          </div>
+                      </form>
+                      <div id="error_message" style="width:100%; height:100%; display:none; ">
+                          <h4>
+                              Error
+                          </h4>
+                          Ocurrió un error al enviar tu formulario 
+                      </div>
+                      <div id="success_message" style="width:100%; height:100%; display:none; ">
+<h2>Exito, tu mensaje ha sido enviado con exito.</h2>
+</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <br>
+  <!-- Form Ended -->
+  <div class="container-fluid">
+        <div class="container bg-white">
+            <div class="row m-5"> 
+                  <div class="col-12 p-5">
+                  <h1>Navigator</h1>
+                  <button onclick="obtieneDatos()">Obtiene datos del navegador</button>
+                  <ul id="navegador">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                  </ul>
+                  </div>
+            </div>
+        </div>
+  </div>
+<!-- Script Practica 2 -->
+  <script>
+        var navegador = document.getElementById("navegador");
+        var datos = navegador.getElementsByTagName("li");
+        function obtieneDatos(){
+            datos[0].innerHTML = "Nombre del navegador es: "+ navigator.appCodeName;
+            datos[1].innerHTML = "La versión  del navegador es: "+ navigator.appVersion;
+            datos[2].innerHTML = "Estatus del internet : "+ navigator.onLine;
+            datos[3].innerHTML = "Plataforma: "+ navigator.platform;
+      
+      }
+        
+  </script>
+      <!-- Footer -->
+      <div class="container-fluid py-5 bg-dark">
+            <div class="container">
+                  <div class="row">
+                        <div class="col">
+                              <a name="piedepagina"></a>
+                              <h3 class="text-white">Loustaunau y Asociados</h3>
+                              <p class="text-white">Loustaunau y Asociados agradece tu preferencia, estableciendo el protocolo</p>
+                        </div>
+                  </div>
+            </div>
+     
+
+      <!-- Bootstrap 5 beta -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      
+      <!-- Animate on Scroll -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <!-- Google Maps -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCklgR88CgKokH7bIKeOy1EVmVVHuq4tXo&callback=iniciaMapa" async defer></script>
+
+            <!-- Script Mapa -->
+      <script>
+            AOS.init();
+      </script>
+
+      <script>
+
+            function iniciaMapa() {
+            var coordenadas = {
+                  lat: 21.152639, lng: -101.711598
+            }
+
+            var map = new google.maps.Map(
+                  document.getElementById('mapa'),
+                  {
+                        center: coordenadas,
+                        zoom: 15
+                  }
+            );
+
+            var marcador = new google.maps.Marker({ position: coordenadas, map: map });
+            }
+
+      </script>
+
+
+</body>
+</html>
